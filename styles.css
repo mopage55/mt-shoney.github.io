@@ -1,0 +1,179 @@
+/*Universal Styles*/
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/*Header*/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    width: 350px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.navbar a {
+    padding: 5px;
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+/*Main*/
+
+main {
+    margin-top: 30px;
+    background-image: url(./images/main\ foto1.avif);
+    height: 666px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+main div {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    opacity: 0.8;
+    padding: 20px 40px;
+}
+
+main div h1 {
+    padding-bottom: 5px;
+}
+
+main div p {
+    padding-top: 5px;
+}
+
+
+/*Honey section*/
+
+.honeys {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.honeys p {
+    padding-top: 10px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products img {
+    width: 355px;
+    height: 350px;
+    margin: 40px 30px 0px;
+    border-radius: 3px;
+}
+
+.products figcaption {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.3rem;
+}
+
+
+/*Employer's Section*/
+
+.ourteami {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.ourteam {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.ourteami img {
+    width: 355px;
+    height: 245px;
+    margin: 0px 25px 15px;
+    border-radius: 3px;
+}
+
+
+/*Footer*/
+
+.footer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer h1{
+    padding-bottom: 15px;
+}
+
+.footer p {
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.footer .copyright {
+    padding-top: 30px;
+}
+
+
+
+
+
+/* Style all font awesome icons */
+.icons {
+    display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 10px 15px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
